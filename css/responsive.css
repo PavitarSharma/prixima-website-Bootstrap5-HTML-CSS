@@ -1,0 +1,48 @@
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1230px) {
+}
+
+@media (max-width: 991px) {
+  .navbar .navbar-nav {
+    background: #fff;
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  .banner-wrapper .carousel-control-next,
+  .banner-wrapper .carousel-control-prev {
+    display: none;
+  }
+
+  .banner-wrapper .home-banner1 {
+    background-position: right center;
+    min-height: 80vh;
+    width: 100%;
+  }
+
+  .banner-wrapper .home-banner2 {
+    background-position: center;
+    min-height: 80vh;
+    width: 100%;
+  }
+
+  .banner-wrapper .home-banner1 .home-text {
+    left: 4%;
+  }
+
+  .about-wrapper .about-more {
+    height: 100vh;
+    text-align: center;
+  }
+
+  .services-wrapper .card {
+    margin: 14px 0;
+  }
+}
